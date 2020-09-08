@@ -18,3 +18,33 @@ discounted(234, 101)
 discounted(200, 30)
 discounted(-500, -30)
 discounted(1257, -24)
+
+#задание1 версия1
+def get_sum(one, two, delimiter='&'):
+    label = "{a} {b} {c}".format(a=one, b=delimiter, c=two)
+    return(label)
+
+s = get_sum('Python', 'Learn')
+print(s.upper())
+
+#Задание1 версия2
+def sum(one, two, delimiter='&'):
+    one_two = one + delimiter + two
+    return(one_two)
+p = sum('python', 'learn')
+print(p)
+
+#Пример куратора
+def func(x):
+    return x*x
+
+y = func(5)
+print(y)
+
+#задание2
+def format_price(price):
+    price = int(price)
+    c = f"Цена {price} руб."
+    return(c)
+a = format_price(56.24)
+print(a)
