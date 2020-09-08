@@ -17,3 +17,4 @@ def discounted(price, discount):
 discounted(234, 101)
 discounted(200, 30)
 discounted(-500, -30)
+discounted(1257, -24)
