@@ -12,6 +12,6 @@ vv = int(v)
 print(vv + 10)
 
 name_user = input('Введите ваше имя: ')
-cc = str(name_user.upper())
+cc = name_user.upper()
 output = f'Привет {cc}! Как дела?'
 print(output)
