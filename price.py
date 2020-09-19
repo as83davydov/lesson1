@@ -22,10 +22,10 @@ discounted(1257, -24)
 #задание1 версия1
 def get_sum(one, two, delimiter='&'):
     label = "{a} {b} {c}".format(a=one, b=delimiter, c=two)
-    return(label)
+    return(label.upper())
 
 s = get_sum('Python', 'Learn')
-print(s.upper())
+print(s)
 
 #Задание1 версия2
 def sum(one, two, delimiter='&'):
